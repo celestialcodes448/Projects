@@ -1505,7 +1505,7 @@ int main(void)
 
         /* COMMANDS (do not consume a turn) */
         if (strcmp(line, "quit") == 0 || strcmp(line, "exit") == 0) {
-            printf("Goodbye.\n");
+            printf("You quit and loose the gem.\n");
             break;
         }
 
